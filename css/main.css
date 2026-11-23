@@ -1,0 +1,352 @@
+::selection {
+    background-color: #A684FF;
+    color: white;
+}
+
+header {
+    background-image: url("../images/hero-bg-img.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.color-white {
+    color: white !important;
+}
+
+header h1 {
+    font-size: 60px;
+    /* color: white; */
+    z-index: 4;
+}
+
+header p {
+    font-size: 20px;
+    /* width: 63%; */
+    z-index: 4;
+}
+
+.my-continar {
+    width: 60%;
+
+}
+
+header::before {
+    content: "";
+
+    width: 100%;
+    height: 100%;
+    background-color: #7043a8ea;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+.my-nav .nav-link {
+    color: #1D293D;
+    font-weight: 400;
+    margin: 0 25px 0 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.my-nav .nav-link.my-exception::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    top: 90%;
+    left: -50%;
+    transform: translatex(-50%);
+    background-color: #7043a8d2;
+    transition: 0.5s;
+
+}
+
+.my-nav .nav-link.my-exception:hover::after {
+    left: 50%;
+}
+
+
+.my-nav span.my-span {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.my-nav ul .nav-link:hover {
+    color: #A422FE;
+}
+
+.my-nav .nav-item .active {
+    color: #A422FE;
+    border-bottom: 2px solid #A422FE;
+}
+
+.my-first-form .my-btn {
+    background-color: #7F00DD;
+}
+
+.my-btn:hover {
+    background-color: #A422FE;
+}
+
+.my-header {
+    padding-top: 90px;
+    min-height: 102vh;
+}
+
+.my-general-divForForm {
+    width: 65%;
+}
+
+/* ====================================section 1 ========================================== */
+.my-design {
+    background-color: #F9F5FF;
+    color: #7008E7;
+    border: 2px solid #DDD6FF;
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    position: relative;
+}
+
+.my-design::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    /* background-color: red; */
+    background: linear-gradient(90deg, transparent, #7008E7);
+    top: 50%;
+    transform: translatey(-50%);
+    left: -44%;
+}
+
+.my-design::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    /* background-color: red; */
+    background: linear-gradient(90deg, #7008E7, transparent);
+    top: 50%;
+    transform: translatey(-50%);
+    right: -44%;
+
+}
+
+.my-gridiant {
+    background: linear-gradient(90deg, #7c3aed 0%, #8b5cf6 40%, #e87954 78%, #f97316 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.my-par {
+    max-width: 600px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.card-section-imgs {
+    height: 200px;
+    object-fit: cover;
+}
+
+.my-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.my-card:hover {
+    transform: translatey(-4px);
+}
+
+.my-card-badge-color {
+    background-color: #7F22FE;
+}
+
+.my-card .my-card-button i {
+    transition: 0.25s;
+}
+
+.my-card .my-card-button i:hover {
+    color: red;
+}
+
+.my-card-span2-color {
+    background-color: rgba(15, 23, 42, 0.72);
+    font-size: 0.75rem;
+}
+
+.my-color-brice {
+    color: #7F22FE;
+}
+
+.my-card-anchor {
+    background-color: #EDE9FE;
+    color: #7F22FE;
+    border: none;
+}
+
+.card-body button:hover {
+    background-color: #DDD6FF;
+
+}
+
+.my-card-badge-color2 {
+    background-color: green;
+}
+
+.my-card-badge-color3 {
+    background-color: #E17100;
+}
+
+.my-card .my-card-body {
+    line-height: 1.6;
+}
+
+.my-cards-continar {
+    width: 95%;
+    margin: auto;
+}
+
+.my-end-cardSection {
+    background-color: #8122fed2;
+    color: white;
+    transition: 0.5s;
+}
+
+.my-end-cardSection:hover {
+
+    background-color: #9415FB;
+    color: white;
+}
+
+.for-my-edit {
+    background-color: #F9FAFB !important;
+}
+
+
+/* =============================section2================================ */
+.my-containerToSec2 {
+    width: 70%;
+    margin: auto;
+}
+
+#pills-tab .nav-link {
+    background-color: transparent;
+    color: #475569;
+    transition: 0.25s;
+    border-radius: 0;
+}
+
+#pills-tab .nav-link:hover {
+    color: #7F22FE;
+    border-bottom: 1px solid #C4B4FF;
+}
+
+#pills-tab .nav-link.active {
+    border-bottom: 1px solid #7F22FE;
+    background-color: #F5F3FF;
+    color: #7F22FE;
+}
+
+.my-service-icon {
+    width: 41px;
+    height: 41px;
+    background-color: #f3e8ff;
+    color: #7c3aed;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+}
+
+#pills-tabContent .my-colors-forAnchor {
+    background-color: #6d28d9;
+    color: white;
+    transition: 0.25s;
+}
+
+#pills-tabContent .my-colors-forAnchor:hover {
+    background-color: #5b21b6;
+    color: white;
+}
+
+#pills-tabContent .my-service-img {
+    max-height: 380px;
+    object-fit: cover;
+}
+
+#pills-tabContent .my-smallBoxOnImg {
+    position: absolute;
+    bottom: -3%;
+    left: -2%;
+    min-width: 140px;
+}
+
+#pills-tabContent .my-number-color {
+    color: #7F22FE;
+}
+
+.my-service-icon-2 {
+    background-color: #DBFCE7;
+    color: #00A63E;
+}
+
+#pills-tabContent .my-colors-forAnchor2 {
+    background-color: #00A63E;
+    transition: 0.25s;
+}
+
+#pills-tabContent .my-colors-forAnchor2:hover {
+    background-color: #008236;
+    color: white;
+}
+
+.my-number-color2 {
+    color: #00A63E;
+}
+
+#pills-tabContent .my-smallBoxOnImg2 {
+    position: absolute;
+    bottom: -3%;
+    right: -2%;
+    min-width: 140px;
+}
+
+
+
+/* =======================third section========================== */
+
+.my-thirdSectionColor{
+    background-color: #57178D;
+}
+
+.my-gridiant2{
+    color: white;
+}
+
+.my-thirdSectionColor .my-par-2{
+    color: #DDD6FF !important;
+}
+
+.my-design2::after{
+    background: linear-gradient(90deg,#FEA000,transparent);
+    right:-55% ;
+}
+
+.my-design2::before{
+    background: linear-gradient(90deg,transparent,#FEA000);
+    left:-55% ;
+
+}
+
+
+
+
+
+.my-force-section-bg{
+    background-color: #F9FAFB;
+    
+}
